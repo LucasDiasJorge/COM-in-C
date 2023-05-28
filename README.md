@@ -1,2 +1,3 @@
 # COM in C
  
+Para ouvir um input de dados de uma porta COM no Linux usando a linguagem C, você pode usar a API POSIX de E/S (entrada/saída) de arquivos. Certifique-se de substituir "/dev/ttyUSB0" pelo caminho da porta COM correta que você deseja usar. Além disso, observe que a configuração da taxa de transmissão (B9600 no exemplo) e outras opções podem precisar ser ajustadas de acordo com as especificações da sua porta e dispositivo.
